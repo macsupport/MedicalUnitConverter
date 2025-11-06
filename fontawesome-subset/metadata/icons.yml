@@ -1,0 +1,528 @@
+arrow-right-arrow-left:
+  aliases:
+    names:
+      - exchange
+    unicodes:
+      composite:
+        - 21c4
+      secondary:
+        - 10f0ec
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  label: Arrow Right Arrow Left
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f0ec
+  voted: false
+calculator:
+  aliases:
+    unicodes:
+      composite:
+        - 1f5a9
+      secondary:
+        - 10f1ec
+  changes:
+    - 4.2.0
+    - 5.0.0
+    - 5.3.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Calculator
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f1ec
+  voted: false
+cat:
+  aliases:
+    unicodes:
+      composite:
+        - 1f408
+      secondary:
+        - 10f6be
+  changes:
+    - 5.4.0
+    - 5.10.1
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Cat
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f6be
+  voted: true
+circle:
+  aliases:
+    unicodes:
+      composite:
+        - 1f534
+        - 1f535
+        - 1f7e0
+        - 1f7e1
+        - 1f7e2
+        - 1f7e3
+        - 1f7e4
+        - 25cf
+        - 26aa
+        - 26ab
+        - 2b24
+        - f10c
+        - f1db
+      secondary:
+        - 10f111
+  changes:
+    - 3.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+  label: Circle
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f111
+  voted: false
+circle-info:
+  aliases:
+    names:
+      - info-circle
+    unicodes:
+      secondary:
+        - 10f05a
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Circle info
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - duotone
+  unicode: f05a
+  voted: false
+circle-question:
+  aliases:
+    names:
+      - question-circle
+    unicodes:
+      composite:
+        - f29c
+      secondary:
+        - 10f059
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Circle question
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - duotone
+  unicode: f059
+  voted: false
+dog:
+  aliases:
+    unicodes:
+      composite:
+        - 1f415
+      secondary:
+        - 10f6d3
+  changes:
+    - 5.4.0
+    - 5.12.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+  label: Dog
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f6d3
+  voted: false
+earth-europe:
+  aliases:
+    names:
+      - globe-europe
+    unicodes:
+      secondary:
+        - 10f7a2
+  changes:
+    - 5.6.0
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+  label: Earth Europe
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f7a2
+  voted: true
+envelope:
+  aliases:
+    unicodes:
+      composite:
+        - 1f582
+        - '2709'
+        - f003
+      secondary:
+        - 10f0e0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+  label: Envelope
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f0e0
+  voted: false
+flag-usa:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f74d
+  changes:
+    - 5.5.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  label: Flag Usa
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f74d
+  voted: false
+laptop-medical:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f812
+  changes:
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Laptop Medical
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f812
+  voted: false
+left-right:
+  aliases:
+    names:
+      - arrows-alt-h
+    unicodes:
+      composite:
+        - '2194'
+      secondary:
+        - 10f337
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Left right
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f337
+  voted: false
+notdef:
+  changes:
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  label: Notdef
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - duotone
+  unicode: e1fe
+  voted: false
+notes-medical:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f481
+  changes:
+    - 5.0.7
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  label: Notes Medical
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f481
+  voted: false
+paw:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f1b0
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.1.2
+    - 6.2.0
+  label: Paw
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f1b0
+  voted: false
+pen-ruler:
+  aliases:
+    names:
+      - pencil-ruler
+    unicodes:
+      secondary:
+        - 10f5ae
+  changes:
+    - 5.1.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+  label: Pen ruler
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f5ae
+  voted: false
+print:
+  aliases:
+    unicodes:
+      composite:
+        - 1f5a8
+        - 1f5b6
+        - '2399'
+      secondary:
+        - 10f02f
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.3.0
+    - 5.11.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: print
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f02f
+  voted: false
+rotate:
+  aliases:
+    names:
+      - sync-alt
+    unicodes:
+      composite:
+        - 1f504
+      secondary:
+        - 10f2f1
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Rotate
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f2f1
+  voted: false
+scale-balanced:
+  aliases:
+    names:
+      - balance-scale
+    unicodes:
+      composite:
+        - '2696'
+      secondary:
+        - 10f24e
+  changes:
+    - 4.4.0
+    - 5.0.0
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Scale balanced
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f24e
+  voted: false
+square-info:
+  aliases:
+    names:
+      - info-square
+    unicodes:
+      composite:
+        - '2139'
+      secondary:
+        - 10f30f
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Square info
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - duotone
+  unicode: f30f
+  voted: false
+square-question:
+  aliases:
+    names:
+      - question-square
+    unicodes:
+      secondary:
+        - 10f2fd
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Square question
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f2fd
+  voted: false
+user-doctor:
+  aliases:
+    names:
+      - user-md
+    unicodes:
+      secondary:
+        - 10f0f0
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.0.3
+    - 5.0.7
+    - 5.0.11
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.1.2
+    - 6.2.0
+  label: User doctor
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f0f0
+  voted: false
+users-medical:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f830
+  changes:
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Users with Medical Symbol
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f830
+  voted: false
+vial:
+  aliases:
+    unicodes:
+      composite:
+        - 1f9ea
+      secondary:
+        - 10f492
+  changes:
+    - 5.0.7
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Vial
+  search:
+    terms: []
+  styles:
+    - solid
+    - duotone
+  unicode: f492
+  voted: false
+vials:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f493
+  changes:
+    - 5.0.7
+    - 6.0.0-beta1
+    - 6.2.0
+  label: Vials
+  search:
+    terms: []
+  styles:
+    - solid
+    - regular
+    - duotone
+  unicode: f493
+  voted: false

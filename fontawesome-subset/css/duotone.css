@@ -1,0 +1,161 @@
+/*!
+ * Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ * Copyright 2023 Fonticons, Inc.
+ */
+:root, :host {
+  --fa-style-family-duotone: 'Font Awesome 6 Duotone';
+  --fa-font-duotone: normal 900 1em/1 'Font Awesome 6 Duotone'; }
+
+@font-face {
+  font-family: 'Font Awesome 6 Duotone';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-duotone-900.woff2") format("woff2"), url("../webfonts/fa-duotone-900.ttf") format("truetype"); }
+
+.fad,
+.fa-duotone {
+  position: relative;
+  font-weight: 900;
+  letter-spacing: normal; }
+
+.fad::before,
+.fa-duotone::before {
+  position: absolute;
+  color: var(--fa-primary-color, inherit);
+  opacity: var(--fa-primary-opacity, 1); }
+
+.fad::after,
+.fa-duotone::after {
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, 0.4); }
+
+.fa-swap-opacity .fad::before,
+.fa-swap-opacity .fa-duotone::before,
+.fad.fa-swap-opacity::before,
+.fa-duotone.fa-swap-opacity::before {
+  opacity: var(--fa-secondary-opacity, 0.4); }
+
+.fa-swap-opacity .fad::after,
+.fa-swap-opacity .fa-duotone::after,
+.fad.fa-swap-opacity::after,
+.fa-duotone.fa-swap-opacity::after {
+  opacity: var(--fa-primary-opacity, 1); }
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff); }
+
+.fad.fa-stack-1x, .fad.fa-stack-2x,
+.fa-duotone.fa-stack-1x, .fa-duotone.fa-stack-2x {
+  position: absolute; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
+.fad.fa-paw::after, .fa-duotone.fa-paw::after {
+  content: "\f1b0\f1b0"; }
+
+.fad.fa-pen-ruler::after, .fa-duotone.fa-pen-ruler::after {
+  content: "\f5ae\f5ae"; }
+
+.fad.fa-pencil-ruler::after, .fa-duotone.fa-pencil-ruler::after {
+  content: "\f5ae\f5ae"; }
+
+.fad.fa-users-medical::after, .fa-duotone.fa-users-medical::after {
+  content: "\f830\f830"; }
+
+.fad.fa-notes-medical::after, .fa-duotone.fa-notes-medical::after {
+  content: "\f481\f481"; }
+
+.fad.fa-vial::after, .fa-duotone.fa-vial::after {
+  content: "\f492\f492"; }
+
+.fad.fa-left-right::after, .fa-duotone.fa-left-right::after {
+  content: "\f337\f337"; }
+
+.fad.fa-arrows-alt-h::after, .fa-duotone.fa-arrows-alt-h::after {
+  content: "\f337\f337"; }
+
+.fad.fa-square-info::after, .fa-duotone.fa-square-info::after {
+  content: "\f30f\f30f"; }
+
+.fad.fa-info-square::after, .fa-duotone.fa-info-square::after {
+  content: "\f30f\f30f"; }
+
+.fad.fa-circle::after, .fa-duotone.fa-circle::after {
+  content: "\f111\f111"; }
+
+.fad.fa-circle-question::after, .fa-duotone.fa-circle-question::after {
+  content: "\f059\f059"; }
+
+.fad.fa-question-circle::after, .fa-duotone.fa-question-circle::after {
+  content: "\f059\f059"; }
+
+.fad.fa-cat::after, .fa-duotone.fa-cat::after {
+  content: "\f6be\f6be"; }
+
+.fad.fa-envelope::after, .fa-duotone.fa-envelope::after {
+  content: "\f0e0\f0e0"; }
+
+.fad.fa-user-doctor::after, .fa-duotone.fa-user-doctor::after {
+  content: "\f0f0\f0f0"; }
+
+.fad.fa-user-md::after, .fa-duotone.fa-user-md::after {
+  content: "\f0f0\f0f0"; }
+
+.fad.fa-circle-info::after, .fa-duotone.fa-circle-info::after {
+  content: "\f05a\f05a"; }
+
+.fad.fa-info-circle::after, .fa-duotone.fa-info-circle::after {
+  content: "\f05a\f05a"; }
+
+.fad.fa-vials::after, .fa-duotone.fa-vials::after {
+  content: "\f493\f493"; }
+
+.fad.fa-flag-usa::after, .fa-duotone.fa-flag-usa::after {
+  content: "\f74d\f74d"; }
+
+.fad.fa-calculator::after, .fa-duotone.fa-calculator::after {
+  content: "\f1ec\f1ec"; }
+
+.fad.fa-laptop-medical::after, .fa-duotone.fa-laptop-medical::after {
+  content: "\f812\f812"; }
+
+.fad.fa-arrow-right-arrow-left::after, .fa-duotone.fa-arrow-right-arrow-left::after {
+  content: "\f0ec\f0ec"; }
+
+.fad.fa-exchange::after, .fa-duotone.fa-exchange::after {
+  content: "\f0ec\f0ec"; }
+
+.fad.fa-square-question::after, .fa-duotone.fa-square-question::after {
+  content: "\f2fd\f2fd"; }
+
+.fad.fa-question-square::after, .fa-duotone.fa-question-square::after {
+  content: "\f2fd\f2fd"; }
+
+.fad.fa-rotate::after, .fa-duotone.fa-rotate::after {
+  content: "\f2f1\f2f1"; }
+
+.fad.fa-sync-alt::after, .fa-duotone.fa-sync-alt::after {
+  content: "\f2f1\f2f1"; }
+
+.fad.fa-dog::after, .fa-duotone.fa-dog::after {
+  content: "\f6d3\f6d3"; }
+
+.fad.fa-scale-balanced::after, .fa-duotone.fa-scale-balanced::after {
+  content: "\f24e\f24e"; }
+
+.fad.fa-balance-scale::after, .fa-duotone.fa-balance-scale::after {
+  content: "\f24e\f24e"; }
+
+.fad.fa-earth-europe::after, .fa-duotone.fa-earth-europe::after {
+  content: "\f7a2\f7a2"; }
+
+.fad.fa-globe-europe::after, .fa-duotone.fa-globe-europe::after {
+  content: "\f7a2\f7a2"; }
+
+.fad.fa-print::after, .fa-duotone.fa-print::after {
+  content: "\f02f\f02f"; }
+
+.fad.fa-notdef::after, .fa-duotone.fa-notdef::after {
+  content: "\e1fe\e1fe"; }

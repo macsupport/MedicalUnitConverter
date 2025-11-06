@@ -1,0 +1,28 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@layer utilities {
+.blocked {
+ display: block;
+}
+}
+.input-f7 {
+  @apply appearance-none mt-2 blocked w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-1 px-2 leading-tight;
+}
+.dose-f7{
+	@apply inline-flex items-center px-2 py-1 rounded-lg text-base font-semibold leading-5 bg-blue-200 text-black tracking-tight;
+}
+.volume-f7{
+	@apply inline-flex items-center px-2 py-1 rounded-lg text-base font-semibold leading-5 bg-green-200 text-black tracking-tight;
+}
+.druginput{@apply appearance-none mt-2 blocked w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-1 px-2 leading-tight;}
+
+.resultDose{@apply inline-flex items-center px-2 py-1 rounded-lg text-base font-semibold leading-5 bg-blue-200 text-black tracking-tight;}
+.resultVolume{@apply inline-flex items-center px-2 py-1 rounded-lg text-base font-semibold leading-5 bg-green-200 text-black tracking-tight;}
+
+.numbers {@apply px-2 py-1 h-6 w-6 rounded-full text-center text-white text-base font-bold bg-gray-600}
+.myselect {@apply dark:text-white dark:bg-black blocked transition duration-150 ease-in-out sm:text-sm sm:leading-5 font-bold print:px-1 print:pr-2 print:border-none print:shadow-none print:bg-white print:text-black}
+.toolbarlinks {@apply my-1 px-1 w-1/5 overflow-hidden rounded text-center}
+.indexlinks {@apply relative rounded-lg border border-gray-300 bg-white px-0.5 py-1 md:py-4 md:p-4 shadow-sm flex items-center  dark:bg-gray-900 space-x-0.5 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500}
+.indexlinkstext{@apply text-sm md:text-xl font-medium text-gray-900 text-center dark:text-white}
+

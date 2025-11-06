@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/macsupport/Downloads/VETCALCULATORS-APP/Medical-Converter-New",
+  "type": [
+    "web",
+    "capacitor"
+  ],
+  "name": "Medical Converter",
+  "pkg": "com.vetcalculators.medicalunitconverter",
+  "framework": "svelte",
+  "template": "tabs",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}

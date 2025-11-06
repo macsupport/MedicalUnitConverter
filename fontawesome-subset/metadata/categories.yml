@@ -1,0 +1,257 @@
+accessibility:
+  icons:
+    - circle-info
+    - circle-question
+    - square-info
+    - square-question
+  label: Accessibility
+alert:
+  icons: []
+  label: Alert
+alphabet:
+  icons: []
+  label: Alphabet
+animals:
+  icons:
+    - cat
+    - dog
+    - paw
+  label: Animals
+arrows:
+  icons:
+    - arrow-right-arrow-left
+    - left-right
+    - rotate
+  label: Arrows
+astronomy:
+  icons: []
+  label: Astronomy
+automotive:
+  icons: []
+  label: Automotive
+buildings:
+  icons: []
+  label: Buildings
+business:
+  icons:
+    - calculator
+    - envelope
+    - print
+    - scale-balanced
+  label: Business
+camping:
+  icons: []
+  label: Camping
+charity:
+  icons: []
+  label: Charity
+charts-diagrams:
+  icons: []
+  label: Charts + Diagrams
+childhood:
+  icons: []
+  label: Childhood
+clothing-fashion:
+  icons: []
+  label: Clothing + Fashion
+coding:
+  icons: []
+  label: Coding
+communication:
+  icons:
+    - envelope
+  label: Communication
+connectivity:
+  icons: []
+  label: Connectivity
+construction:
+  icons:
+    - pen-ruler
+  label: Construction
+design:
+  icons:
+    - pen-ruler
+  label: Design
+devices-hardware:
+  icons:
+    - print
+  label: Devices + Hardware
+disaster:
+  icons: []
+  label: Disaster + Crisis
+editing:
+  icons:
+    - pen-ruler
+    - rotate
+  label: Editing
+education:
+  icons: []
+  label: Education
+emoji:
+  icons: []
+  label: Emoji
+energy:
+  icons: []
+  label: Energy
+files:
+  icons: []
+  label: Files
+film-video:
+  icons:
+    - circle
+  label: Film + Video
+food-beverage:
+  icons: []
+  label: Food + Beverage
+fruits-vegetables:
+  icons: []
+  label: Fruits + Vegetables
+gaming:
+  icons: []
+  label: Gaming
+gender:
+  icons: []
+  label: Genders
+halloween:
+  icons:
+    - cat
+  label: Halloween
+hands:
+  icons: []
+  label: Hands
+holidays:
+  icons: []
+  label: Holidays
+household:
+  icons: []
+  label: Household
+humanitarian:
+  icons:
+    - envelope
+    - scale-balanced
+    - user-doctor
+  label: Humanitarian
+logistics:
+  icons: []
+  label: Logistics
+maps:
+  icons:
+    - circle-info
+    - paw
+    - print
+    - scale-balanced
+    - square-info
+  label: Maps
+maritime:
+  icons: []
+  label: Maritime
+marketing:
+  icons: []
+  label: Marketing
+mathematics:
+  icons:
+    - calculator
+  label: Mathematics
+media-playback:
+  icons:
+    - rotate
+  label: Media Playback
+medical-health:
+  icons:
+    - laptop-medical
+    - notes-medical
+    - user-doctor
+    - users-medical
+    - vial
+    - vials
+  label: Medical + Health
+money:
+  icons:
+    - scale-balanced
+  label: Money
+moving:
+  icons: []
+  label: Moving
+music-audio:
+  icons: []
+  label: Music + Audio
+nature:
+  icons: []
+  label: Nature
+numbers:
+  icons: []
+  label: Numbers
+photos-images:
+  icons: []
+  label: Photos + Images
+political:
+  icons:
+    - flag-usa
+    - scale-balanced
+  label: Political
+punctuation-symbols:
+  icons:
+    - circle-question
+    - square-question
+  label: Punctuation + Symbols
+religion:
+  icons: []
+  label: Religion
+science:
+  icons:
+    - vial
+    - vials
+  label: Science
+science-fiction:
+  icons: []
+  label: Science Fiction
+security:
+  icons: []
+  label: Security
+shapes:
+  icons:
+    - circle
+  label: Shapes
+shopping:
+  icons: []
+  label: Shopping
+social:
+  icons:
+    - envelope
+  label: Social
+spinners:
+  icons:
+    - rotate
+  label: Spinners
+sports-fitness:
+  icons: []
+  label: Sports + Fitness
+text-formatting:
+  icons: []
+  label: Text Formatting
+time:
+  icons: []
+  label: Time
+toggle:
+  icons:
+    - circle
+  label: Toggle
+transportation:
+  icons: []
+  label: Transportation
+travel-hotel:
+  icons:
+    - earth-europe
+  label: Travel + Hotel
+users-people:
+  icons:
+    - user-doctor
+    - users-medical
+  label: Users + People
+weather:
+  icons: []
+  label: Weather
+writing:
+  icons:
+    - envelope
+  label: Writing

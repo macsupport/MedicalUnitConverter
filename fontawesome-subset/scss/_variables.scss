@@ -1,0 +1,129 @@
+// variables
+// --------------------------
+
+$fa-css-prefix          : fa !default;
+$fa-style               : 900 !default;
+$fa-style-family        : "Font Awesome 6 Pro" !default;
+
+$fa-display             : inline-block !default;
+
+$fa-fw-width            : fa-divide(20em, 16) !default;
+$fa-inverse             : #fff !default;
+
+$fa-border-color        : #eee !default;
+$fa-border-padding      : .2em .25em .15em !default;
+$fa-border-radius       : .1em !default;
+$fa-border-style        : solid !default;
+$fa-border-width        : .08em !default;
+
+$fa-size-scale-2xs      : 10 !default;
+$fa-size-scale-xs       : 12 !default;
+$fa-size-scale-sm       : 14 !default;
+$fa-size-scale-base     : 16 !default;
+$fa-size-scale-lg       : 20 !default;
+$fa-size-scale-xl       : 24 !default;
+$fa-size-scale-2xl      : 32 !default;
+
+$fa-sizes: (
+  "2xs"                 : $fa-size-scale-2xs,
+  "xs"                  : $fa-size-scale-xs,
+  "sm"                  : $fa-size-scale-sm,
+  "lg"                  : $fa-size-scale-lg,
+  "xl"                  : $fa-size-scale-xl,
+  "2xl"                 : $fa-size-scale-2xl
+) !default;
+
+$fa-li-width            : 2em !default;
+$fa-li-margin           : $fa-li-width * fa-divide(5, 4) !default;
+
+$fa-pull-margin         : .3em !default;
+
+$fa-primary-opacity     : 1 !default;
+$fa-secondary-opacity   : .4 !default;
+
+$fa-stack-vertical-align: middle !default;
+$fa-stack-width         : ($fa-fw-width * 2) !default;
+$fa-stack-z-index       : auto !default;
+
+$fa-font-display        : block !default;
+$fa-font-path           : "../webfonts" !default;
+
+$fa-var-paw: \f1b0;
+$fa-var-pen-ruler: \f5ae;
+$fa-var-pencil-ruler: \f5ae;
+$fa-var-users-medical: \f830;
+$fa-var-notes-medical: \f481;
+$fa-var-vial: \f492;
+$fa-var-left-right: \f337;
+$fa-var-arrows-alt-h: \f337;
+$fa-var-square-info: \f30f;
+$fa-var-info-square: \f30f;
+$fa-var-circle: \f111;
+$fa-var-circle-question: \f059;
+$fa-var-question-circle: \f059;
+$fa-var-cat: \f6be;
+$fa-var-envelope: \f0e0;
+$fa-var-user-doctor: \f0f0;
+$fa-var-user-md: \f0f0;
+$fa-var-circle-info: \f05a;
+$fa-var-info-circle: \f05a;
+$fa-var-vials: \f493;
+$fa-var-flag-usa: \f74d;
+$fa-var-calculator: \f1ec;
+$fa-var-laptop-medical: \f812;
+$fa-var-arrow-right-arrow-left: \f0ec;
+$fa-var-exchange: \f0ec;
+$fa-var-square-question: \f2fd;
+$fa-var-question-square: \f2fd;
+$fa-var-rotate: \f2f1;
+$fa-var-sync-alt: \f2f1;
+$fa-var-dog: \f6d3;
+$fa-var-scale-balanced: \f24e;
+$fa-var-balance-scale: \f24e;
+$fa-var-earth-europe: \f7a2;
+$fa-var-globe-europe: \f7a2;
+$fa-var-print: \f02f;
+$fa-var-notdef: \e1fe;
+
+
+$fa-icons: (
+  "paw": $fa-var-paw,
+  "pen-ruler": $fa-var-pen-ruler,
+  "pencil-ruler": $fa-var-pencil-ruler,
+  "users-medical": $fa-var-users-medical,
+  "notes-medical": $fa-var-notes-medical,
+  "vial": $fa-var-vial,
+  "left-right": $fa-var-left-right,
+  "arrows-alt-h": $fa-var-arrows-alt-h,
+  "square-info": $fa-var-square-info,
+  "info-square": $fa-var-info-square,
+  "circle": $fa-var-circle,
+  "circle-question": $fa-var-circle-question,
+  "question-circle": $fa-var-question-circle,
+  "cat": $fa-var-cat,
+  "envelope": $fa-var-envelope,
+  "user-doctor": $fa-var-user-doctor,
+  "user-md": $fa-var-user-md,
+  "circle-info": $fa-var-circle-info,
+  "info-circle": $fa-var-info-circle,
+  "vials": $fa-var-vials,
+  "flag-usa": $fa-var-flag-usa,
+  "calculator": $fa-var-calculator,
+  "laptop-medical": $fa-var-laptop-medical,
+  "arrow-right-arrow-left": $fa-var-arrow-right-arrow-left,
+  "exchange": $fa-var-exchange,
+  "square-question": $fa-var-square-question,
+  "question-square": $fa-var-question-square,
+  "rotate": $fa-var-rotate,
+  "sync-alt": $fa-var-sync-alt,
+  "dog": $fa-var-dog,
+  "scale-balanced": $fa-var-scale-balanced,
+  "balance-scale": $fa-var-balance-scale,
+  "earth-europe": $fa-var-earth-europe,
+  "globe-europe": $fa-var-globe-europe,
+  "print": $fa-var-print,
+  "notdef": $fa-var-notdef,
+);
+
+$fa-brand-icons: (
+);

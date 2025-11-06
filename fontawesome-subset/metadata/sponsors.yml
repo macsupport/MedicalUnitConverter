@@ -1,0 +1,14 @@
+harvard-medical-school:
+  icons:
+    - notes-medical
+    - user-doctor
+    - vial
+    - vials
+  label: Harvard Medical School
+  url: 'https://hms.harvard.edu'
+medapps:
+  icons:
+    - laptop-medical
+    - users-medical
+  label: MedApps
+  url: 'https://medapps.com.au'
