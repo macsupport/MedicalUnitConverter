@@ -1,9 +1,10 @@
 
 import HomePage from '../pages/main.svelte';
 import AboutPage from '../pages/about.svelte';
+import SettingsPage from '../pages/settings.svelte';
 // import FormPage from '../pages/form.svelte';
 import MetricPage from '../pages/metric.svelte';
-import HumanPage from '../pages/human2.svelte';
+import HumanPage from '../pages/human.svelte';
 //  import HumanPage2 from '../pages/tabs/human.svelte';
 import VetPage from '../pages/vet.svelte';
 // import DynamicRoutePage from '../pages/dynamic-route.svelte';
@@ -66,6 +67,11 @@ var routes = [
     options: {
       // transition: "f7-cover",
     }
+  },
+  {
+    path: "/settings/",
+    component: SettingsPage,
+    name: "settings",
   },
 
   //   {

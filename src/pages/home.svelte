@@ -54,6 +54,16 @@
 <div class="text-sm"></div></Link>
   <a class="resetme hidden-print" href="#"  on:click={() =>{reset()}}><span class="refresh-link refresh-home"> <i class="fad fa-sync-alt fa-2x fa-fw mt-2"></i></span></a>    <a class="printme hidden-print" data-print="human" href="#"><i class="fad fa-print fa-2x fa-fw mt-2"></i></a></div></div> 
 <hr/><div id="human" class="divide-y divide-gray-300 w-full printthis px-1 holderx md:w-3/4 md:mx-auto print:w-full">
+
+<!-- Loading and Error States -->
+<LoadingError
+  {isLoading}
+  error={apiError}
+  onRetry={fetchData}
+  loadingMessage="Loading human lab values..."
+/>
+
+{#if !isLoading && !apiError}
 <div class="xs:hidden sm:hidden md:inline w-full px-2 mb-2 shadow md:flex md:flex-no-wrap md:mx-auto print:block bg-gray-300 dark:bg-gray-700">
 <div class="md:w-1/2 font-bold text-lg inline-flex  print:inline-flex print:w-7/12  print:overflow-hidden print:text-black">Name </div>
 <div class="md:w-1/4 font-bold text-lg inline-flex  print:inline-flex print:w-2/12   print:overflow-hidden print:text-black">US Units</div>
@@ -98,7 +108,8 @@
       threshold={50}
       on:loadMore={() => page++} />
       </div>
-</div>  
+{/if}
+</div>
     </div>
 
 
@@ -344,6 +355,7 @@ z-index: 20;
 </style>
 <script>
 import SvelteInfiniteScroll from "svelte-infinite-scroll";
+import LoadingError from '../components/LoadingError.svelte';
 
 // import '../js/framework7-keypad.min.js';
   import js from 'jquery';
@@ -395,21 +407,30 @@ let standalone;
 
  let unitsH = [];
 let unitsHuman = unitsH;
+  let isLoading = true;
+  let apiError = null;
+
   async function fetchData() {
+    isLoading = true;
+    apiError = null;
+
     try {
-      const response = await fetch('https://medical-units.vetcalculators.workers.dev/');
-      
-      if (response.ok) {
-        // If the response is successful (status code 200), parse the JSON data
-        const data = await response.json();
-        unitsH = data; // Assign the fetched data to the unitsH variable
+      const { fetchMedicalUnits } = await import('../js/api.js');
+      const result = await fetchMedicalUnits(10000); // 10 second timeout
+
+      if (result.error) {
+        apiError = result.error;
+        unitsH = [];
       } else {
-        // Handle error if the response is not successful
-        console.error('Failed to fetch data:', response.statusText);
+        unitsH = result.data || [];
+        apiError = null;
       }
     } catch (error) {
-      // Handle network or other errors
+      apiError = 'Unexpected error loading data. Please try again.';
       console.error('Error fetching data:', error);
+      unitsH = [];
+    } finally {
+      isLoading = false;
     }
   }
 

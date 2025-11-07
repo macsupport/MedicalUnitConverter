@@ -4,19 +4,19 @@
 
 <Navbar center class="hidden-print" sliding="{false}">
 
-<NavLeft><Link class="icon-only" href="/about/" ><i class="fa-fw fad fa-info-circle fa-2x fa-fw"></i>
-                                    </Link></NavLeft>
+<NavLeft>
+  <Link class="icon-only" href="/about/"><i class="fa-fw fad fa-info-circle fa-2x fa-fw"></i></Link>
+</NavLeft>
 
- <div center class="title text-lg"><img class="inline-flex img-responsive mr-1" src="icon-500.png" style="width:40px; height:100%;"/> <span class="text-lg font-bold">Medical Unit Converter</span></div>
- 
- 
- <NavRight>
-      
-      <Button class="helpme icon-only" popupOpen=".help-popup"> <i class="fa-fw fad fa-question-circle fa-2x fa-fw"></i>
-                                    </Button>
-      <!-- <Link href="/human/" >test
-                                    </Link>                               -->
-                                    </NavRight>
+<div center class="title text-lg">
+  <img class="inline-flex img-responsive mr-1" src="icon-500.png" style="width:40px; height:100%;"/>
+  <span class="text-lg font-bold">Medical Unit Converter</span>
+</div>
+
+<NavRight>
+  <Link class="icon-only" href="/settings/"><i class="fa-fw fad fa-cog fa-2x fa-fw"></i></Link>
+  <Button class="helpme icon-only" popupOpen=".help-popup"><i class="fa-fw fad fa-question-circle fa-2x fa-fw"></i></Button>
+</NavRight>
 
                                   <Subnavbar>
       <Searchbar class="w-full md:w-1/2 md:mx-auto"
@@ -534,72 +534,6 @@ const handlePrintButtonClick = async (e) => {
 };
   
   
-// js(document).on("click", ".printme", function(e) {
-//     e.preventDefault();
 
-//     const printLink = js(this).data("print");
-//     const gridElement = js(`#${printLink}`);
-//     const printableContent = js('<div>').attr('id', printLink).addClass('printthis')
-//         .append(gridElement.clone())
-//         .html();
-
-//     // Set value to each input.
-//     js("input").each(function() {
-//         js(this).attr("value", js(this).val());
-//     });
-
-//     const cssRules = `html.device-full-viewport, html.device-full-viewport body {
-//         height:100vh !important;
-//         width:100% !important;
-//     }
-
-//     .print\\:blocked {
-//         display: block;
-//     }
-
-//     /* Other CSS Rules here... */
-
-//     body {
-//         width: 21cm;
-//     }
-
-//     .hidden-print {
-//         display:none !important;
-//     }
-
-//     #${printLink} {
-//         width: 100%; 
-//         height: 100%; 
-//         margin: 0px !important; 
-//         padding: 0px !important;
-//     } 
-
-//     html, body {
-//         width: 100%; 
-//         height: 100%; 
-//         margin: 0px !important; 
-//         padding: 0px !important;
-//     }`;
-
-//     const htmlContent = `
-//         <style type="text/css">
-//             @media print {
-//                 ${cssRules}
-//             }
-//         </style>
-//         <div style="height:100vh !important;width:100% !important;">
-//             ${printableContent}
-//         </div>
-//     `;
-
-//     setTimeout(function() {
-//         window.cordova.plugins.printer.print()
-
-//     }, 600);
-// });
-
-
-
-    
 
 </script>
