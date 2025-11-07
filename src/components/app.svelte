@@ -99,6 +99,7 @@
 
   import { onMount } from 'svelte';
    import js from 'jquery';
+  import { themeStore } from '../js/themeStore';
 
     import { getDevice }  from 'framework7/lite-bundle';
   import {
@@ -169,6 +170,9 @@ colors: {
   // Login screen demo data
 
   onMount(() => {
+    // Initialize theme on app startup
+    themeStore.init();
+
     f7ready(() => {
 
       // Init capacitor APIs (see capacitor-app.js)

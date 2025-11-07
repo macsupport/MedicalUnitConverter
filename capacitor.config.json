@@ -1,7 +1,7 @@
 {
   "appId": "com.vetcalculators.medicalunitconverter",
   "appName": "Medical Unit Converter",
-  "bundledWebRuntime": false,
+  "bundledWebRuntime": true,
   "npmClient": "npm",
   "webDir": "www",
    "CapacitorHttp": {
@@ -9,9 +9,8 @@
     },
   "plugins": {
     "SplashScreen": {
-       "launchShowDuration": 3500,
+       "launchShowDuration": 3000,
       // "launchAutoHide": true
     },
-  },
-  "cordova": {}
+  }
 }
